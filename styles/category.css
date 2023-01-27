@@ -1,0 +1,55 @@
+.card {
+  width: 90vw;
+  min-height: 5rem;
+  max-height: fit-content;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  background-color: bisque;
+  border-radius: 3rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0.5rem;
+}
+.number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+}
+.point {
+  background-color: white;
+  border-radius: 3rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0.5rem;
+}
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
