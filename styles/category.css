@@ -53,3 +53,14 @@
   align-items: center;
   justify-content: center;
 }
+.home div {
+  background-color: bisque;
+  height: 3rem;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
