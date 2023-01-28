@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   margin: 1rem 1rem;
+  overflow-x: auto;
 }
 .quiz-container {
   display: flex;
