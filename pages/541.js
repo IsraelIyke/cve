@@ -31,7 +31,10 @@ export default function Cve541() {
   ));
   return (
     <div className="card-container">
-      <div className="number-container">{number}</div>
+      <div className="scroll">
+        <div className="number-container">{number}</div>
+      </div>
+
       <div className="quiz-container">{quiz}</div>
     </div>
   );
