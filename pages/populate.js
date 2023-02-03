@@ -10,6 +10,12 @@ export default function Populate() {
     const { data, error } = await supabase
       .from("cve541")
       .insert([{ question: question, answer: answer }]);
+    if (error) {
+      console.log(error);
+    } else {
+      setAnswer("");
+      setQuestion("");
+    }
   }
   return (
     <div>

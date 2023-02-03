@@ -30,10 +30,11 @@
 }
 .number-container {
   display: flex;
+  width: 90vw;
   justify-content: center;
   align-items: center;
   margin: 1rem 1rem;
-  /* overflow-x: scroll; */
+  overflow-x: auto;
 }
 .quiz-container {
   display: flex;
@@ -66,7 +67,7 @@
   justify-content: center;
 }
 .scroll {
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   position: fixed;
   z-index: 1;
   top: 0;
